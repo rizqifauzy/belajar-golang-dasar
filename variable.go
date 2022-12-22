@@ -17,12 +17,15 @@ func main() {
 	var age = 30
 	fmt.Println(age)
 
+	var age2 int8 = 30
+	fmt.Println(age2)
+
 	country := "Indonesia"
 	fmt.Println(country)
 
 	var (
 		firstName = "Eko"
-		lastName = "Khannedy"
+		lastName  = "Khannedy"
 	)
 
 	fmt.Println(firstName)
