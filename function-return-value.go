@@ -15,4 +15,5 @@ func main() {
 	fmt.Println(result)
 
 	fmt.Println(getHello(""))
+	getHello("Budi")
 }

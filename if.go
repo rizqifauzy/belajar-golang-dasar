@@ -15,6 +15,9 @@ func main() {
 		fmt.Println("Hi, kenalan donk")
 	}
 
+	//var length = len(name)
+	//if length > 5 {
+
 	if length := len(name); length > 5 {
 		fmt.Println("Terlalu Panjang")
 	} else {
