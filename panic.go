@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func endApp(){
+func endApp() {
 	message := recover()
 	if message != nil {
 		fmt.Println("Error dengan message:", message)
@@ -10,7 +10,7 @@ func endApp(){
 	fmt.Println("Aplikasi selesai")
 }
 
-func runApp(error bool){
+func runApp(error bool) {
 	defer endApp()
 	if error {
 		panic("APLIKASI ERROR")

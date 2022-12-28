@@ -14,7 +14,7 @@ func main() {
 	fmt.Println(names[1])
 	fmt.Println(names[2])
 
-	var values = [3]int{
+	values := [3]int{
 		90,
 		95,
 		80,

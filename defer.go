@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func logging(){
+func logging() {
 	fmt.Println("Selesai memanggil function")
 }
 
-func runApplication(value int){
+func runApplication(value int) {
 	defer logging()
 	fmt.Println("Run application")
 	result := 10 / value

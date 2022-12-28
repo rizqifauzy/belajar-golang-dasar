@@ -8,6 +8,7 @@ func main() {
 
 	increment := func() {
 		name := "Budi"
+		//name = "Budi" //ini akan mengubah variable yang di atas "Eko"
 		fmt.Println("Increment")
 		counter++
 		fmt.Println(name)
