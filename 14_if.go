@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var name = "Kurniawan"
+	name := "Kurniawan"
 
 	if name == "Eko" {
 		fmt.Println("Hello Eko")

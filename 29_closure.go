@@ -15,7 +15,7 @@ func main() {
 	}
 
 	increment()
-	increment()
+	//increment()
 
 	fmt.Println(counter)
 	fmt.Println(name)
