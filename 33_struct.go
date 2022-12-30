@@ -21,6 +21,7 @@ func main() {
 	eko.Address = "Indonesia"
 	eko.Age = 30
 
+	fmt.Println(eko)
 	eko.sayHi("Joko")
 	eko.sayHuuu()
 

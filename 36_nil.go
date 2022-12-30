@@ -17,7 +17,7 @@ func main() {
 
 	if person == nil {
 		fmt.Println("Data Kosong")
-	}else {
+	} else {
 		fmt.Println(person)
 	}
 }

@@ -6,7 +6,7 @@ type Address struct {
 	City, Province, Country string
 }
 
-func ChangeCountryToIndonesia(address *Address){
+func ChangeCountryToIndonesia(address *Address) {
 	address.Country = "Indonesia"
 }
 
