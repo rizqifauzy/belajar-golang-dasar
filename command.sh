@@ -4,3 +4,8 @@ go run hello-world.go
 go build hello-world.go
 
 ./hello-world
+
+
+go env -w GO111MODULE=off
+
+go env -w GO111MODULE=off
